@@ -24,10 +24,14 @@ body {
   font-size: 25pxf;
 }
 .encabezado--con-filtros {
+/* display: flex
+    width: 90%
+    margin 0 auto
+    padding 30px 0 */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
+  width: 96%;
   margin: 0 auto;
   padding: 30px 0;
 }
@@ -43,6 +47,9 @@ body {
   height: 75px;
   padding: 20px;
   margin-left: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+          box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
 }
 .encabezado--con-filtros .filtros span {
   text-transform: uppercase;
@@ -52,4 +59,58 @@ body {
   margin-left: 20px;
   font-size: 25px;
   color: #333;
+}
+.contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 96%;
+  margin: 0 auto;
+  padding: 30px 0;
+  margin-bottom: 40px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.caja {
+  max-width: 430px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+          box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
+}
+.caja__contenido {
+  padding: 20px;
+  backgorund-color: #fff;
+}
+.caja__contenido span {
+  text-transform: uppercase;
+  color: #8841da;
+  font-family: 'Oswald', sans-serif;
+}
+.caja__contenido h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: 'Oswald', sans-serif;
+}
+.estadistica--articulos {
+  height: 70px;
+  padding: 20px;
+  border-top: 1px solid #333;
+}
+.estadistica--articulos ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.estadistica--articulos ul li {
+  list-style: none;
+  color: rgba(51,51,51,0.3);
+}
+.estadistica--articulos ul li span {
+  margin-left: 10px;
 }
