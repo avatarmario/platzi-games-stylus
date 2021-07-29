@@ -85,23 +85,23 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
-.caja {
+.contenido .caja {
   max-width: 430px;
   background-color: #fff;
   -webkit-box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
           box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.2);
 }
-.caja__contenido {
+.contenido .caja__contenido {
   padding: 20px;
-  backgorund-color: #fff;
+  background-color: #fff;
 }
-.caja__contenido span {
+.contenido .caja__contenido span {
   color: #8841da;
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
-.caja__contenido h3 {
+.contenido .caja__contenido h3 {
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
